@@ -8,7 +8,7 @@ function Provider({children}){
     const [taskList, setTaskList] = useState([])
 
     const create = async (title, taskDesc) => {
-        const response = await axios.post('http://localhost:3000/taskList', {
+        const response = await axios.post('https://json-server-vercel-7bheydn0b-taha-toklucus-projects.vercel.app/taskList', {
             title, 
             taskDesc
     });
@@ -21,12 +21,12 @@ function Provider({children}){
   };
 
     const fetchTasks = async () => {
-        const response = await axios.get('http://localhost:3000/taskList');
+        const response = await axios.get('https://json-server-vercel-7bheydn0b-taha-toklucus-projects.vercel.app/taskList');
         setTaskList(response.data);
     }
 
     const deleteUseId = async (id) => {
-        await axios.delete(`http://localhost:3000/taskList/${id}`);
+        await axios.delete(`https://json-server-vercel-7bheydn0b-taha-toklucus-projects.vercel.app/taskList/${id}`);
         const newTaskList = taskList.filter((task) => {
         return task.id !== id; 
     })
@@ -34,7 +34,7 @@ function Provider({children}){
     }
 
     const editTaskUseId = async (id, updatedTitle, updatedTaskDesc) => {
-        await axios.put(`http://localhost:3000/taskList/${id}`,{
+        await axios.put(`https://json-server-vercel-7bheydn0b-taha-toklucus-projects.vercel.app/taskList/${id}`,{
             title: updatedTitle,
             taskDesc: updatedTaskDesc
         });
