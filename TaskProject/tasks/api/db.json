@@ -1,0 +1,14 @@
+{
+  "taskList": [
+    {
+      "title": "Hata Giderilmesi",
+      "taskDesc": "Şirket bünyesinde varolan tüm kod satırlarındaki hatalar giderilecek.",
+      "id": "8fde"
+    },
+    {
+      "id": "8261",
+      "title": "Çıktılar",
+      "taskDesc": "Gerekli çıktılar üst düzeydeki yetkililere bildirilecek."
+    }
+  ]
+}

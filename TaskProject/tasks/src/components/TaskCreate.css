@@ -1,0 +1,53 @@
+.task-container {
+    width: 450px;
+}
+
+.task-update {
+    width: 100%;
+}
+
+.task-color {
+    color: #dee0ea;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.task-notify {
+    text-align: center;
+}
+
+.task-head {
+    margin: 10px 0;
+}
+
+.task-input {
+    padding: 10px;
+    border: 1px solid #072e33;
+    border-radius: 10px;
+    resize: none;
+}
+
+.task-button {
+    border: 1px solid #072e33;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #6da5c0;
+    color: #05161a;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.task-button:hover {
+    background-color: #05161a;
+    color: #6da5c0;
+}
+
+.update-button {
+    background-color: #05161a;
+}

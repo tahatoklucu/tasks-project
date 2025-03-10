@@ -1,0 +1,64 @@
+.task-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-container {
+    border: 4px solid #072e33;
+    background-color: #304e61;
+    border-radius: 8px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.show-head{
+    color: #dee0ea;
+}
+
+.show-title {
+    color: #dee0ea;
+}
+
+.delete-button {
+    padding: 5px;
+    font-size: 15px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    color: #dee0ea;
+    background-color: #ae445a;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.update-button {
+    padding: 5px;
+    font-size: 15px;
+    width: 80px;
+    border: none;
+    border-radius: 20px;
+    color: #dee0ea;
+    background-color: #718355;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.save-button {
+    padding: 5px;
+    font-size: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    color: #dee0ea;
+    background-color: #718355;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
